@@ -1,0 +1,53 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttendanceSystem", "AttendanceSystem\AttendanceSystem.csproj", "{9869F6DD-8EB0-4444-BA63-E3B1DCED3FAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AttendanceSystem.Database", "AttendanceSystem.Database", "{DEF6317F-AD48-4F9C-A7C1-72BF1A9C40DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttendanceSystem.Database", "AttendanceSystem.Database\AttendanceSystem.Database.csproj", "{E761B487-8A19-49DE-AA0F-6BAAA9C92BD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AttendanceSystem.Services", "AttendanceSystem.Services", "{9C941906-46BC-4DC9-B46E-D9639E324CF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttendanceSystem.Service", "AttendanceSystem.Service\AttendanceSystem.Service.csproj", "{A7F4DD8E-AAE7-4433-99A0-E27B1E3A78C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AttendanceSystem.IOC", "AttendanceSystem.IOC", "{78A3AF5C-BD75-4D19-8B64-1780E834545D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttendanceSystem.IOC", "AttendanceSystem.IOC\AttendanceSystem.IOC.csproj", "{0D2F524C-3203-43D7-88A9-DFF0BFA3901D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9869F6DD-8EB0-4444-BA63-E3B1DCED3FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9869F6DD-8EB0-4444-BA63-E3B1DCED3FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9869F6DD-8EB0-4444-BA63-E3B1DCED3FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9869F6DD-8EB0-4444-BA63-E3B1DCED3FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E761B487-8A19-49DE-AA0F-6BAAA9C92BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E761B487-8A19-49DE-AA0F-6BAAA9C92BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E761B487-8A19-49DE-AA0F-6BAAA9C92BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E761B487-8A19-49DE-AA0F-6BAAA9C92BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F4DD8E-AAE7-4433-99A0-E27B1E3A78C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F4DD8E-AAE7-4433-99A0-E27B1E3A78C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F4DD8E-AAE7-4433-99A0-E27B1E3A78C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F4DD8E-AAE7-4433-99A0-E27B1E3A78C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2F524C-3203-43D7-88A9-DFF0BFA3901D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2F524C-3203-43D7-88A9-DFF0BFA3901D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2F524C-3203-43D7-88A9-DFF0BFA3901D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2F524C-3203-43D7-88A9-DFF0BFA3901D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E761B487-8A19-49DE-AA0F-6BAAA9C92BD1} = {DEF6317F-AD48-4F9C-A7C1-72BF1A9C40DB}
+		{A7F4DD8E-AAE7-4433-99A0-E27B1E3A78C0} = {9C941906-46BC-4DC9-B46E-D9639E324CF3}
+		{0D2F524C-3203-43D7-88A9-DFF0BFA3901D} = {78A3AF5C-BD75-4D19-8B64-1780E834545D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3182D3A-9A92-48AC-BAED-5D9EF59A68CD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+.customFontSize .v-card__text .v-text-field input ,.customFontSize .v-card__text .v-input--selection-controls input {
+    font-size: 0.8em;
+    text-transform: capitalize;
+}
+.customFontSize .v-card__text .v-text-field label, .customFontSize .v-card__text .v-list-item__content .v-list-item__title ,.customFontSize .v-input--selection-controls label {
+    font-size: 0.8em !important;
+}
+._v-digital-time-picker__select{
+    height: 50px !important;
+}
